@@ -1,0 +1,13 @@
+# Addition
+a = 5
+b = 3
+print(a + b) # Output: 8
+
+# Subtraction
+print(a - b) # Output: 2
+
+# Multiplication
+print(a * b) # Output: 15
+
+# Division
+print(a / b) # Output: 1.6666666666666667
