@@ -1,0 +1,4 @@
+div class="py-16 bg-gray-200">
+  <h1 class="text-center text-2xl font-bold">Section Title</h1>
+  <p class="text-center">This section has 64px padding on top and bottom.</p>
+</div>
