@@ -1,0 +1,11 @@
+# Ler entrada
+name = input("Digite seu nome: ")
+print("Olá", name)
+
+# Imprimir várias linhas
+print("Linha 1\nLinha 2\nLinha 3")
+
+# Ou use várias chamadas de print
+print("Linha A")
+print("Linha B")
+print("Linha C")
