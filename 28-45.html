@@ -1,0 +1,12 @@
+import requests
+from bs4 import BeautifulSoup
+
+def extrair_titulos(url):
+resposta = requests.get(url)
+sopa = BeautifulSoup(resposta.content, 'html.parser')
+titulos = sopa.find_all('h1')
+for titulo in titulos:
+print(titulo.text)
+
+# Exemplo de uso
+extrair_titulos("https://www.example.com")
